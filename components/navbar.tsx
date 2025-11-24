@@ -13,10 +13,10 @@ export function Navbar() {
   }
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white">
+    <header className="sticky top-0 z-50 w-full border-b bg-pink-800">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center">
-          <span className="text-xl font-bold text-pink-800">Cycles for Change</span>
+          <span className="text-xl font-bold text-white font-sans">Cycles for Change</span>
         </Link>
 
         {/* Mobile menu button */}
@@ -27,28 +27,28 @@ export function Navbar() {
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex gap-6">
-          <Link href="/" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Home
           </Link>
-          <Link href="/newsletters" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/newsletters" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Newsletters
           </Link>
-          <Link href="/about-us" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/about-us" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             About Us
           </Link>
-          <Link href="/our-mission" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/our-mission" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Our Mission
           </Link>
-          <Link href="/blog" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/blog" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Blog
           </Link>
-          <Link href="/press" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/press" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Press
           </Link>
-          <Link href="/contact" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/contact" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Contact
           </Link>
-          <Link href="/socials" className="text-sm font-medium hover:text-pink-700 transition-colors">
+          <Link href="/socials" className="text-sm font-medium text-white hover:text-pink-700 transition-colors">
             Socials
           </Link>
         </nav>

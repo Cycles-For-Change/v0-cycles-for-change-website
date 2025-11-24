@@ -12,20 +12,14 @@ export default function Home() {
         <ParticleBackground />
         <div className="container px-4 md:px-6 relative z-10">
           <div className="flex flex-col items-center text-center space-y-8">
-            {/* Logo Placeholder */}
-            <div className="relative w-48 h-48 md:w-64 md:h-64 mb-4">
-              <Image
-                src="/cycles-for-change-logo.jpg"
-                alt="Cycles for Change Logo"
-                fill
-                className="object-contain rounded-lg"
-                priority
-              />
+            {/* Logo */}
+            <div className="relative w-96 h-96 md:w-128 md:h-128 mb-4">
+              <Image src="/images/logo.webp" alt="Cycles for Change Logo" fill className="object-contain text-7xl" priority />
             </div>
 
             {/* Mission Statement */}
             <div className="max-w-3xl mx-auto">
-              <h1 className="text-3xl md:text-4xl font-bold tracking-tighter text-pink-800 mb-6">Cycles for Change</h1>
+              <h1 className="font-bold tracking-tighter text-pink-800 mb-6 text-7xl">Cycles for Change</h1>
               <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                 Founded by two girls who had a driving passion to eradicate Period Poverty. Cycles For Change was
                 created for the purpose of providing all US schools with free product dispensers. By providing free
@@ -71,8 +65,8 @@ export default function Home() {
             </div>
             <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
               <Image
-                src="/images/1-20-283-29.jpg"
-                alt="Students with period product dispensers"
+                src="/images/banner.jpg"
+                alt="Cycles for Change dispenser with supportive messages"
                 fill
                 className="object-cover"
               />

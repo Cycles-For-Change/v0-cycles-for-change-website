@@ -17,7 +17,7 @@ export default function OurMissionPage() {
         {/* Mission Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative h-64 md:h-80 rounded-lg overflow-hidden">
-            <Image src="/images/1.jpg" alt="Period product dispenser" fill className="object-cover" />
+            <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-sideways-KWK0sUQTQ4xNZGFDO5npQPsaTssjVm.jpg" alt="Period product dispenser" fill className="object-cover" />
           </div>
           <div>
             <h2 className="text-2xl font-bold text-pink-800 mb-4">Our Journey</h2>
@@ -71,7 +71,7 @@ export default function OurMissionPage() {
                 donations.
               </p>
               <Button asChild className="bg-pink-800 hover:bg-pink-700 text-white">
-                <Link href="https://www.instagram.com/cyclesforchange/" target="_blank" rel="noopener noreferrer">
+                <Link href="https://www.instagram.com/cycles_for_change/" target="_blank" rel="noopener noreferrer">
                   <Instagram className="mr-2 h-4 w-4" />
                   Follow Us on Instagram
                 </Link>
@@ -92,7 +92,7 @@ export default function OurMissionPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild variant="outline" className="border-white text-white hover:bg-pink-700 bg-transparent">
-              <Link href="mailto:cyclesforchange@gmail.com">Contact Us</Link>
+              <Link href="mailto:cyclesforchange2024@gmail.com">Contact Us</Link>
             </Button>
             <Button asChild className="bg-white text-pink-800 hover:bg-gray-100">
               <Link href="/blog">Read Our Blog</Link>

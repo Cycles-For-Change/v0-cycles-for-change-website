@@ -19,6 +19,10 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
+        heading: ["var(--font-shrikhand)", "cursive"],
+      },
       colors: {
         pink: {
           50: "#fdf2f7",

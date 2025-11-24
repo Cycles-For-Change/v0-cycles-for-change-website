@@ -77,7 +77,7 @@ export default function BlogPage() {
                 </CardContent>
                 <CardFooter className="p-0">
                   <Button asChild className="bg-pink-800 hover:bg-pink-700 text-white">
-                    <Link href="#">
+                    <Link href="https://cyclesforchange.wixsite.com/cycles-for-change/blog">
                       Read Full Article
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
