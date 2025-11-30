@@ -172,7 +172,8 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-medium text-pink-800 mb-1">How can I volunteer?</h4>
                   <p className="text-sm text-gray-600">
-                    Follow us on Instagram @cyclesforchange for volunteer opportunities and updates on how you can help.
+                    Follow us on Instagram @cycles_for_change for volunteer opportunities and updates on how you can
+                    help.
                   </p>
                 </div>
                 <div>
@@ -236,7 +237,7 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild className="bg-pink-800 hover:bg-pink-700 text-white">
-              <a href="https://www.instagram.com/cyclesforchange/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/cycles_for_change/" target="_blank" rel="noopener noreferrer">
                 Follow Our Journey
               </a>
             </Button>

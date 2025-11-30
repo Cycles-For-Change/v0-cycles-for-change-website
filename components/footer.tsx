@@ -10,7 +10,7 @@ export function Footer() {
         </div>
         <div className="flex items-center gap-4">
           <Link
-            href="https://www.instagram.com/cyclesforchange/"
+            href="https://www.instagram.com/cycles_for_change/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-800 hover:text-pink-600 transition-colors"
