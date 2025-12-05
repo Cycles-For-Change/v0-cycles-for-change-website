@@ -34,9 +34,32 @@ export default function OurMissionPage() {
           </div>
         </div>
 
+        {/* Statistics Section */}
+        <div className="bg-gradient-to-r from-pink-800 to-pink-700 rounded-lg p-8 mb-16 text-white">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Our Impact By The Numbers</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold mb-2">500,000+</div>
+              <div className="text-pink-100 text-sm md:text-base">Digitally Reached</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold mb-2">1,500+</div>
+              <div className="text-pink-100 text-sm md:text-base">Directly Impacted</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold mb-2">80+</div>
+              <div className="text-pink-100 text-sm md:text-base">Period Kits</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold mb-2">~$7,000</div>
+              <div className="text-pink-100 text-sm md:text-base">Raised</div>
+            </div>
+          </div>
+        </div>
+
         {/* Outreach Section */}
         <div className="bg-pink-50 rounded-lg p-8 mb-16">
-          <h2 className="text-2xl font-bold text-pink-800 text-center mb-4">Our Impact</h2>
+          <h2 className="text-2xl font-bold text-pink-800 text-center mb-4">Why It Matters</h2>
           <p className="text-lg text-center text-gray-700 mb-6">
             The amount of people who benefit with the period products being easily accessible to them is immense.
           </p>

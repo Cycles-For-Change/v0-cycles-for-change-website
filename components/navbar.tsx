@@ -27,7 +27,10 @@ export function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b border-pink-200/50 bg-gradient-to-r from-pink-800 via-pink-700 to-pink-800 shadow-lg backdrop-blur-sm">
       <div className="container flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center group">
-          <span className="text-2xl font-bold text-white font-heading transition-transform group-hover:scale-105">
+          <span
+            className="text-2xl font-bold text-white transition-transform group-hover:scale-105"
+            style={{ fontFamily: "var(--font-shrikhand), cursive" }}
+          >
             Cycles for Change
           </span>
         </Link>

@@ -65,15 +65,16 @@
   body {
     @apply bg-background text-foreground;
   }
-  /* Apply Shrikhand font to all headings */
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-heading;
-  }
+}
+
+/* Apply Shrikhand font to all headings outside of @layer to avoid CSS variable issues */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-shrikhand), cursive;
 }
 
 /* Marquee Animation */
