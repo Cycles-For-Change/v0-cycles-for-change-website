@@ -39,11 +39,11 @@ export default function OurMissionPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Our Impact By The Numbers</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold mb-2">500,000+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">650,000+</div>
               <div className="text-pink-100 text-sm md:text-base">Digitally Reached</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold mb-2">1,500+</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">5,000+</div>
               <div className="text-pink-100 text-sm md:text-base">Directly Impacted</div>
             </div>
             <div className="text-center">
@@ -51,7 +51,7 @@ export default function OurMissionPage() {
               <div className="text-pink-100 text-sm md:text-base">Period Kits</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold mb-2">~$7,000</div>
+              <div className="text-4xl md:text-5xl font-bold mb-2">~$10,000</div>
               <div className="text-pink-100 text-sm md:text-base">Raised</div>
             </div>
           </div>
