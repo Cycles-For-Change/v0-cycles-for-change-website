@@ -12,7 +12,7 @@ export default function PressPage() {
       outlet: "San Antonio Express-News",
       summary:
         "Two Basis Shavano students are making waves with their mission to provide free menstrual products in schools across Texas.",
-      link: "#",
+      link: "https://www.expressnews.com/news/education/article/san-antonio-students-fight-free-period-products-20221577.php",
       image: "/images/1-20-282-29.jpg",
     },
     {
@@ -20,41 +20,20 @@ export default function PressPage() {
       date: "February 28, 2024",
       outlet: "KSAT 12 News",
       summary: "Cycles for Change founders discuss their grassroots approach to menstrual equity in local schools.",
-      link: "#",
+      link: "https://www.ksat.com/video/news/2025/03/01/san-antonio-students-lead-initiative-to-provide-menstrual-hygiene-products-in-school-bathrooms/",
       image: "/images/1-20-285-29.jpg",
     },
     {
-      title: "Breaking Barriers: Students Address Menstrual Health in Education",
+      title: "Awesome Foundation Grant awarded to C4C",
       date: "January 20, 2024",
-      outlet: "The Rivard Report",
+      outlet: "Awesome Foundation",
       summary: "A deep dive into how two teenagers are changing the conversation around period poverty.",
-      link: "#",
+      link: "https://www.awesomefoundation.org/en/projects/359099-cycles-for-change",
       image: "/images/1-20-286-29.jpg",
     },
   ]
 
-  const mediaKit = [
-    {
-      title: "High-Resolution Logo Pack",
-      description: "PNG and SVG versions of our logo in various formats",
-      type: "ZIP File",
-    },
-    {
-      title: "Founder Headshots",
-      description: "Professional photos of Dhiya and Anvi for media use",
-      type: "ZIP File",
-    },
-    {
-      title: "Fact Sheet",
-      description: "Key statistics and information about period poverty",
-      type: "PDF",
-    },
-    {
-      title: "Press Release Template",
-      description: "Standard press release format with key messaging",
-      type: "DOCX",
-    },
-  ]
+  
 
   return (
     <div className="py-12">
