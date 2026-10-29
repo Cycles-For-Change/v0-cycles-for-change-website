@@ -86,39 +86,7 @@ export default function PressPage() {
           </div>
         </div>
 
-        {/* Media Kit */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-bold text-pink-800 mb-8 text-center">Media Kit</h2>
-          <div className="bg-pink-50 rounded-lg p-8">
-            <div className="text-center mb-8">
-              <h3 className="text-xl font-semibold text-pink-800 mb-2">Resources for Journalists & Media</h3>
-              <p className="text-gray-700">
-                Download our media kit for high-quality images, logos, and background information about our
-                organization.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {mediaKit.map((item, index) => (
-                <div key={index} className="bg-white rounded-lg p-4 flex items-center justify-between">
-                  <div>
-                    <h4 className="font-medium text-pink-800">{item.title}</h4>
-                    <p className="text-sm text-gray-600">{item.description}</p>
-                    <span className="text-xs text-pink-600 bg-pink-100 px-2 py-1 rounded mt-2 inline-block">
-                      {item.type}
-                    </span>
-                  </div>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="border-pink-800 text-pink-800 hover:bg-pink-50 bg-transparent"
-                  >
-                    <Download className="h-4 w-4" />
-                  </Button>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+
 
         {/* Press Contact */}
         <div className="bg-pink-800 text-white rounded-lg p-8 text-center">
