@@ -107,32 +107,6 @@ export default function PressPage() {
           </div>
         </div>
 
-        {/* Awards & Recognition */}
-        <div className="mt-16">
-          <h2 className="text-2xl font-bold text-pink-800 mb-8 text-center">Awards & Recognition</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-pink-50 rounded-lg p-6 text-center">
-              <div className="w-16 h-16 bg-pink-800 rounded-full flex items-center justify-center mx-auto mb-4"></div>
-              <h3 className="font-semibold text-pink-800 mb-2">Youth Innovation Award</h3>
-              <p className="text-gray-700 text-sm">San Antonio Youth Leadership Council - 2024</p>
-            </div>
-            <div className="bg-pink-50 rounded-lg p-6 text-center">
-              <div className="w-16 h-16 bg-pink-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">★</span>
-              </div>
-              <h3 className="font-semibold text-pink-800 mb-2">Community Impact Recognition</h3>
-              <p className="text-gray-700 text-sm">Basis Shavano High School - 2024</p>
-            </div>
-            <div className="bg-pink-50 rounded-lg p-6 text-center">
-              <div className="w-16 h-16 bg-pink-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white font-bold text-xl">♦</span>
-              </div>
-              <h3 className="font-semibold text-pink-800 mb-2">Rising Leaders Award</h3>
-              <p className="text-gray-700 text-sm">Texas Youth Advocacy Network - 2023</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      
   )
 }
